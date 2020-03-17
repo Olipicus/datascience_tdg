@@ -8,7 +8,7 @@ import pickle
 # app
 app = flask.Flask(__name__)
 # load model
-heart = pickle.load(open("logregheart.pkl","rb"))
+heart = pickle.load(open("Logregheart.pkl","rb"))
 # routes
 @app.route("/")
 def home():
